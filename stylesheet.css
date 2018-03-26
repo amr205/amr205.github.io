@@ -1,0 +1,68 @@
+/*Aqui se define estilo principal y acomodo de las secciones*/
+body{
+	width: 65%;
+	margin: auto;
+	box-sizing: border-box;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.seccion{
+	overflow: auto;
+	padding: 5%;
+	border-radius: 3%;
+}
+.boton{
+	display: inline-block;
+	padding: 1.5%;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 7%;
+}
+
+
+/*Aqui se definen algunas caracteristicas del contenido principal*/
+#contenido{
+	margin-top: 3%;
+	background-color: #eee;
+}
+#texto, #video, #enlace{
+	float: left;
+}
+#texto{
+	width: 35%;
+	margin-right: 5%;
+}
+#texto p{
+	font-size: 1.3em;
+}
+#video{
+	margin-top: 2%;
+	width: 60%;
+}
+#enlace{
+	width: 100%;
+}
+#contenido h1{
+	font-size: 3em;
+	color: #333;
+	margin:0%;
+}
+#contenido a{
+	color: #3378e8}
+#enlace a{
+	color: #fff;
+	background-color: #3378e8;
+}
+/*Aqui se definen algunas caracteristicas del footer*/
+#enlaces{
+	padding: 0%;
+}
+.elemento{
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+}
+#enlaces a{
+	color: #222;
+	background-color: #eee;
+}
