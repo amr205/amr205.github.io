@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
-	<link rel="stylesheet" href="mystyles.css">
+	<link rel="stylesheet" type="text/css" href="mystyles.css">
 </head>
 <body id="body">
 	<div id="header">
@@ -54,22 +54,4 @@
 </div>
 
 
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var body = document.getElementById("body");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-		body.classList.add("has-navbar-fixed-top");
-  } else {
-    navbar.classList.remove("sticky");
-		body.classList.remove("has-navbar-fixed-top");
-
-  }
-}
-</script>
 </body>
