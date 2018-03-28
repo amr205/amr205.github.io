@@ -4,13 +4,13 @@
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Esta pagina es una recreacion de la pagina donde se imparte el curso de Introduccion al desarrollo web" >
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
 </head>
 <body id="body">
 	<div id="header">
-		<img src="header.png" alt="Alejandro Medina web page" id="headerImg">
+		<img src="resources/header.png" alt="Alejandro Medina web page" id="headerImg">
 	</div>
 
 
@@ -18,7 +18,7 @@
 <div class="navigation-bar"  >
 <nav class="navbar" role="navigation"  aria-label="dropdown navigation" >
 	<a href="" class="navbar-item">
-		<img src="header-logo.png" id="navbar-logo">
+		<img src="resources/header-logo.png" id="navbar-logo">
 	</a>
   <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
@@ -51,24 +51,5 @@
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima placeat aspernatur qui, voluptate aut at voluptatibus asperiores nobis doloribus. Perferendis voluptatibus reiciendis, nulla odit laboriosam soluta ratione recusandae esse sint.
 	</div>
 </div>
-
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var body = document.getElementById("body");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-		body.classList.add("has-navbar-fixed-top");
-  } else {
-    navbar.classList.remove("sticky");
-		body.classList.remove("has-navbar-fixed-top");
-
-  }
-}
-</script>
-
+<script src="scripts/stickyScript.js" charset="utf-8"></script>
 </body>
